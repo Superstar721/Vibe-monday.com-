@@ -1,0 +1,36 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import { TipMenuGridItem } from "./MenuItemButton.stories.helpers";
+import * as MenuItemButtonStories from "./MenuItemButton.stories";
+
+<Meta of={MenuItemButtonStories} />
+
+# Menu Item Button
+
+- [Overview](#overview)
+- [Props](#props)
+- [Variants](#variants)
+- [Feedback](#feedback)
+
+## Overview
+
+<Canvas of={MenuItemButtonStories.Overview} />
+
+## Props
+
+<PropsTable />
+
+<TipMenuGridItem />
+
+## Variants
+
+### States
+
+<Canvas of={MenuItemButtonStories.States} />
+
+### Disabled
+
+<Canvas of={MenuItemButtonStories.Disabled} />
+
+### Icons
+
+<Canvas of={MenuItemButtonStories.Icons} />

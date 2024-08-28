@@ -1,0 +1,9 @@
+.actionLink {
+  color: var(--text-color-on-primary);
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  &:hover {
+    color: inherit;
+  }
+}

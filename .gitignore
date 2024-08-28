@@ -1,0 +1,15 @@
+node_modules
+.vscode
+.idea
+npm-debug.log
+build-storybook.log
+./build-storybook.log
+chromatic.log
+storybook-static
+static_storybook
+dist
+*/build
+coverage
+.scannerwork
+*.env
+.DS_Store

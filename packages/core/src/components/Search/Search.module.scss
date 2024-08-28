@@ -1,0 +1,24 @@
+.searchWrapper {
+  .search {
+    appearance: textfield;
+
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button {
+      appearance: none;
+    }
+  }
+
+  .loader {
+    margin-right: var(--spacing-xs);
+  }
+
+  .icon {
+    opacity: 1;
+    color: var(--icon-color);
+    transition: opacity var(--motion-productive-short);
+
+    &.empty {
+      opacity: 0;
+    }
+  }
+}
